@@ -1,7 +1,25 @@
 #cs1300-gallery {
-  background-color: lightblue;
+  background-color: white;
+
 }
 
-.gallery-container {
+
+.gallery-item-container{
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+}
+
+.gallery-item{
+  border-style: dotted ;
+}
+
+
+.gallery-item:hover {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
 }
